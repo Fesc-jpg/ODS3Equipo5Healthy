@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Programa con PYTHONPATH=src",
+      "type": "python",
+      "request": "launch",
+      "program": "$ODS3Equipo5Healthy/src/app/main.py",
+      "cwd": "$ODS3Equipo5Healthy",
+      "env": { "PYTHONPATH": "$ODS3Equipo5Healthy" },
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
